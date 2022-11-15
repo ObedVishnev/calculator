@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор Степей</title>
+    <style>
+        * {margin: 0;padding: 0;}#mainform {border: 3px solid black; width: 300px;height: 300px;}#basics {width: 50px;height: 50px;display: block;}#basicsblock {margin-left: 20%;}#see {width: 50px;height: 50px;display: block;}#see:hover{cursor: pointer;}#basics:hover{cursor: pointer;}.mainblock {margin-left: 75%;margin-top: 25%;width: 50px;height: 50px;border: 2px solid black;line-height: 50px;text-align: center;}html {font-family: Arial, Helvetica, sans-serif;}
+    </style>
+</head>
+<body>
+    <div id="mainform">
+      <div id="basicsblock">
+        <label for="basics">Показатель</label><br>
+        <input type="number"  id="basics" placeholder="0" style="text-align:center;line-height:50px;font-size:20px;" title="Показатель Степени">
+      </div>
+      <div id="seeblock">
+        <label for="see">Основание</label><br>
+        <input type="number"  id="see" placeholder="0" style="text-align:center;line-height:50px;font-size:20px;" title="Основание Степени">
+      </div>
+      
+      <div class="mainblock">
+        <h2 id="h2" title="Ответ"></h2>
+      </div>
+    </div>
+    <p><h1>Это Калькулятор Степеней</h1></p>
+    <p><h6 style="opacity: 50%;">github:@ObedVishev</h6></p>
+    <script src="main.js"></script>
+</body>
+</html>
